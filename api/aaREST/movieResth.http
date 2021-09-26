@@ -1,0 +1,47 @@
+###########  ctrl+alt+r
+#### MODIFICAR
+
+### /api/users/:id
+POST http://localhost:8800/api/movies  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDc4OGUwNTEwOGZlNjUzOTNmZmYxNSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTYzMjU5NjgxMSwiZXhwIjoxNjMzMDI4ODExfQ.tVzVlyMPwsDzHKRoQp5-PzIiQ0vLIjsZDuDxdKt_Gfc
+
+{ 
+    
+    "title" : "Titulo de la pelicula comedia  2",
+    "desc" : "La edición fotográfica o de imágenes era antes un campo reservado a los profesionales; ahora, sin embargo, las redes sociales han llevado a que prácticamente cualquier usuario se",
+    "img" : "https://www.adslzone.net/app/uploads-adslzone.net/2019/04/seleccion-fondo.jpg",
+    "imgTitle" : " ",
+    "imgSm"  : " ",
+    "trailer" : " ",
+    "video" : "https://youtu.be/tsNswx0nRKM",
+    "year" : "2071",
+    "limit" : "21",
+    "genre" : "comedy",
+    "isSeries" : false
+}
+
+
+
+
+#### MODIFICAR
+
+### /api/movies
+PUT http://localhost:8800/api/movies  HTTP/1.1
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxNDUwN2RjZTBmNDY3MTg3NDM5ZmRlMyIsImlzQWRtaW4iOmZhbHNlLCJpYXQiOjE2MzIwNTgwODIsImV4cCI6MTYzMjQ5MDA4Mn0.4OtFWKwAA7IFvPlQl7xQj_g5XNepQ24HLhIj1uBTbSQ
+
+{ 
+    
+    "title" : " ",
+    "desc" : " ",
+    "img" : " ",
+    "imgTitle" : " ",
+    "imgSm"  : " ",
+    "trailer" : " ",
+    "video" : " ",
+    "year" : " ",
+    "limit" : " ",
+    "genre" : " ",
+    "isSeries" : " "
+}

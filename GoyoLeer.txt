@@ -1,0 +1,4 @@
+coloque la informacion en el blog  se llama RPMAM-todo/lama
+
+video:https://www.youtube.com/watch?v=aTPkos3LKi8&ab_channel=LamaDev
+github:https://github.com/safak/youtube/tree/react-admin

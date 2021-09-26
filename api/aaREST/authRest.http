@@ -1,0 +1,27 @@
+###########  ctrl+alt+r
+#### CREAR o registrarse
+
+POST http://localhost:8800/api/auth/register HTTP/1.1
+content-type: application/json
+
+{ 
+   "username" : "Grilo",
+   "email" : "grilo@gmail.com",
+   "password" : "123",
+   "isAdmin"  : true
+}
+
+#### LOGIN
+
+POST http://localhost:8800/api/auth/login HTTP/1.1
+content-type: application/json
+
+{ 
+   "email" : "grilo@gmail.com",
+   "password" : "123"
+}
+
+# { 
+#    "email" : "lama@gmail.com",
+#    "password" : "123"
+# }
